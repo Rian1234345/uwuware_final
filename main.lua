@@ -7,7 +7,8 @@ end
 
 repeat wait() until game:IsLoaded()
 
--- the rewrite was lost, this was the latest version of uwuware I could find
+-- the rewrite was lost, this was the latest version of rianware
+I could find
 -- last time this was modified before being discontinued was around October 2021, so most of this shit's probably obsolete (USE AT YOUR OWN RISK!!!)
 -- there are a lot of shitty methods here that were never cleaned up, a lot of shitty organization and shitty code in general
 -- anyway, enjoy trying to make sense out of any of this
@@ -26,7 +27,7 @@ repeat wait() until game:IsLoaded()
 		getgenv().library:Unload()
 	end
 
-	local library = {design = getgenv().design == "kali" and "kali" or "uwuware", tabs = {}, draggable = true, flags = {}, title = "uwuware", open = false, mousestate = inputService.MouseIconEnabled, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "uw_configs", fileext = ".uw"}
+	local library = {design = getgenv().design == "kali" and "kali" or "syedware", tabs = {}, draggable = true, flags = {}, title = "syedware", open = false, mousestate = inputService.MouseIconEnabled, popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "uw_configs", fileext = ".uw"}
 	getgenv().library = library
 
 	--Locals
